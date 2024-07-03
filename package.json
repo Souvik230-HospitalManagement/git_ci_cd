@@ -1,0 +1,24 @@
+{
+  "name": "git_ci_cd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest src/index.test.js",
+    "start":"node src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Souvik230-HospitalManagement/git_ci_cd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Souvik230-HospitalManagement/git_ci_cd/issues"
+  },
+  "homepage": "https://github.com/Souvik230-HospitalManagement/git_ci_cd#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
