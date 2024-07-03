@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest src/index.test.js",
-    "start":"node src"
+    "start": "node src"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "homepage": "https://github.com/Souvik230-HospitalManagement/git_ci_cd#readme",
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
   }
 }
